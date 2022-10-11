@@ -1,4 +1,15 @@
 body
 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    color: #e7e7e7;
+    background-color: #182044;
+    margin: 0;
+}
 
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
 }
