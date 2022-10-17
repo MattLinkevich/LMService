@@ -16,7 +16,17 @@ body
     box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 
+{
+    margin: 0;
+}
+
+
+
 /* Container */
+
+
+
 .container
 {
     width: 100%;
@@ -24,7 +34,11 @@ body
     margin: 0 auto;
 }
 
+
+
 /* Header */
+
+
 
 .header
 {
@@ -46,7 +60,11 @@ body
     align-items: center;
 }
 
+
+
 /* Nav */
+
+
 
 .nav
 {
@@ -73,56 +91,177 @@ body
     width: 250px;
 }
 
+
+
 /* Intro */
+
+
 
 .intro
 {
-    height: 750px;
+    height: 850px;
     justify-content: center;
     display: flex;
     flex-direction: column;
-
 }
 
 .intro_inner
 {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
 
 .intro_title
 {
-    font-size: 80px;
+    font-size: 56px;
     color: #e7e7e7;
     font-weight: 700;
     line-height: 1.1;
+    margin-bottom: 50px;
 }
 
-.intro_btn
+.intro_subtitle
 {
     font-size: 20px;
-    display: inline-block;
-    vertical-align: top;
+    color: #e7e7e7;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+
+
+/* Calculator */
+
+
+
+.calculator
+{
     color: #0b163b;
-    font-weight: 700;
-    text-transform: uppercase;
+    display: flex;
+    align-items: center;
     text-decoration: none;
     background-color: #e7e7e7;
-    padding: 15px 45px;
+    width: 900px;
     border-radius: 15px;
-    transition: background .2s;
+    margin: 20px 150px;
+}
+
+.functions
+{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e7e7e7;
+    text-transform: uppercase;
+}
+
+.functions_button
+{
+    background-color: #0d1a44;
+    display: flexbox;
+    vertical-align: top;
+    padding: 15px;
+    border-radius: 15px;
+    transition: .2s;
+    width: 430px;
+    margin: 10px 10px;
+    text-align: center;
 
     border: 0;
     cursor: pointer;
 }
 
-.intro_btn:hover
+.functions_button:hover
 {
-    color: #123bcd;
+    background-color: #0b163b;
     transition-duration: 0.2s; 
-    background-color: #aaaaaa;
+    color: #aaaaaa;
 }
+
+.result
+{
+    display: flexbox;
+    margin: 0 auto;
+}
+
+.result_text
+{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.result_sum
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.result_button
+{
+    text-transform: uppercase;
+    background-color: #0d1a44;
+    color: #e7e7e7;
+    padding: 15px;
+    border-radius: 15px;
+    transition: .2s;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+
+    border: 0;
+    cursor: pointer;
+}
+
+.result_button:hover
+{
+    background-color: #0b163b;
+    transition-duration: 0.2s; 
+    color: #aaaaaa;
+}
+
+.calculate_button
+{
+    text-transform: uppercase;
+    background-color: #e7e7e7;
+    color: #0d1a44;
+    padding: 15px;
+    border-radius: 15px;
+    transition: .2s;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 20px;
+
+    border: 0;
+    cursor: pointer;
+}
+
+.calculate_button:hover
+{
+    background-color: #aaaaaa;
+    transition-duration: 0.2s; 
+    color: #0b163b;
+}
+
+
+
+/* Options */
+
+
+
+
+
+
+
+
+
 
 
 
